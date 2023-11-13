@@ -100,7 +100,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { Swiper, SwiperSlide } from "swiper/vue";
 
 import "swiper/css";
@@ -130,7 +130,6 @@ export default {
           project_link: "https://pili-pinas.onrender.com/",
           project_logo: "https://drive.google.com/uc?id=16zcPBc_Ag6Nv-NTg39WNUSHF_tdBNW7I",
           description: "Capstone Project Streamlining the travel experience",
-          class: "pili-pinas",
         },
         {
           name: "Wordle Clone",
@@ -138,7 +137,6 @@ export default {
           project_logo:
             "https://static01.nyt.com/images/2022/03/02/crosswords/alpha-wordle-icon-new/alpha-wordle-icon-new-square320-v3.png?format=pjpg&quality=75&auto=webp&disable=upscale",
           description: "Clone of the pandemic hit game",
-          class: "wordle",
         },
         {
           name: "The Do List",
@@ -146,7 +144,6 @@ export default {
           project_logo:
             "https://static-00.iconduck.com/assets.00/check-mark-button-emoji-2048x2048-lq7rf7h8.png",
           description: "Essential CRUD Project",
-          class: "the do list",
         },
 
         {
@@ -155,7 +152,6 @@ export default {
           project_logo: "https://em-content.zobj.net/source/skype/289/o-button-blood-type_1f17e-fe0f.png",
           description:
             "A classic on the browser",
-          class: "tic tac toe ",
         },
       ],
     };
