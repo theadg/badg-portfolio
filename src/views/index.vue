@@ -3,9 +3,7 @@ import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
 import AboutMe from "@/components/AboutMe.vue";
 import Skills from "@/components/Skills.vue";
-import Qualification from "@/components/Qualification.vue";
 import Portfolio from "@/components/Portfolio.vue";
-import Footer from "@/components/Footer.vue";
 import ContactMe from "@/components/ContactMe.vue";
 
 import { ref, onMounted } from "@vue/runtime-dom";
@@ -52,10 +50,8 @@ onMounted(() => {
       <Portfolio />
       <AboutMe />
       <Skills />
-      <Qualification />
       <ContactMe />
     </div>
-    <Footer v-if="!loading" />
   </main>
 </template>
 

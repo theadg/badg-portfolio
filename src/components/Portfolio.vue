@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-7xl m-center pt-20">
+  <div class="max-w-7xl m-center pt-20" id="projects">
     <div
       class="about-me text-center mt-10 md:mt-32"
       data-aos="fade-up"
@@ -58,7 +58,7 @@
                   <img
                     :src="project.project_logo"
                     alt=""
-                    :class="`${project.class} thumbnail m-auto`"
+                    :class="`${project.class} thumbnail m-auto max-h-48 object-cover`"
                   />
                 </div>
                 <div class="title dark:text-white text-2xl font-semibold pt-2">
@@ -126,63 +126,36 @@ export default {
     return {
       recent_projects: [
         {
-          name: "DSG | Prolook Customizer",
-          project_link: "https://prolookteam.com/",
-          project_logo: "https://prolookteam.com/images/svg/dsg-logo.svg",
-          description: "Superior Team Apparel",
-          class: "dsg",
+          name: "Pili-Pinas",
+          project_link: "https://pili-pinas.onrender.com/",
+          project_logo: "https://drive.google.com/uc?id=16zcPBc_Ag6Nv-NTg39WNUSHF_tdBNW7I",
+          description: "Capstone Project Streamlining the travel experience",
+          class: "pili-pinas",
         },
         {
-          name: "Richardson Uniform Customizer",
-          project_link: "https://m2.richardsonsports.com/uniforms",
+          name: "Wordle Clone",
+          project_link: "https://theadg.github.io/wordle-clone/",
           project_logo:
-            "https://m2.richardsonsports.com/pub/media/logo/stores/1/logo.gif",
-          description: "Superior Team Apparel",
-          class: "richardson",
+            "https://static01.nyt.com/images/2022/03/02/crosswords/alpha-wordle-icon-new/alpha-wordle-icon-new-square320-v3.png?format=pjpg&quality=75&auto=webp&disable=upscale",
+          description: "Clone of the pandemic hit game",
+          class: "wordle",
         },
         {
-          name: "VWALA",
-          project_link: "https://www.vwa.la/#/",
+          name: "The Do List",
+          project_link: "https://theadg.github.io/todo-list/",
           project_logo:
-            "https://www.vwa.la/screen_db.847413f5fff532660865b7866e5e0564.png",
-          description: "Influencer marketing for Shopify",
-          class: "vwala",
+            "https://static-00.iconduck.com/assets.00/check-mark-button-emoji-2048x2048-lq7rf7h8.png",
+          description: "Essential CRUD Project",
+          class: "the do list",
         },
 
         {
-          name: "FundSpace",
-          project_link: "https://fundspace.ph/",
-          project_logo: "https://fundspace.ph/images/logo.svg",
+          name: "Tic Tac Toe",
+          project_link: "https://theadg.github.io/tic-tac-toe/",
+          project_logo: "https://em-content.zobj.net/source/skype/289/o-button-blood-type_1f17e-fe0f.png",
           description:
-            "FundSpace grants loans to businesses within one week of approval.",
-          class: "fundspace",
-        },
-        {
-          name: "Capitan PH",
-          project_link: "https://capitan.ph/",
-          project_logo: "https://capitan.ph/capitan-min.jpg",
-          description:
-            "Capitan helps SMEs grow through effective digital marketing solutions.",
-          class: "capitan",
-        },
-        {
-          name: "CMDI Learning and Development",
-          project_link:
-            "https://schoolmanagementsystem.cloud/cardtraining.center/",
-          project_logo:
-            "https://schoolmanagementsystem.cloud/cardtraining.center/assets/img/logo-card.png",
-          description:
-            "CMDI is a globally respected development institute that provides exceptional practitioner-led training and education services",
-          class: "cmdi",
-        },
-        {
-          name: "Business Monitoring System",
-          project_link:
-            "https://testapp.businessmonitoringsystem.cloud/bms-online",
-          project_logo:
-            "https://testapp.businessmonitoringsystem.cloud/img/logo-cloudbiz-bms.png",
-          description: "Application that monitors your business",
-          class: "bms",
+            "A classic on the browser",
+          class: "tic tac toe ",
         },
       ],
     };

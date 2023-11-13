@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-7xl m-center pt-20 pb-20">
+  <div class="max-w-7xl m-center pt-20 pb-20" id="about">
     <div
       class="about-me text-center mt-10 md:mt-32"
       data-aos="fade-up"
@@ -19,8 +19,8 @@
         data-aos-duration="500"
       >
         <img
-          class="w-11/12 rounded-md drop-shadow-lg m-auto lg:m-0"
-          src="https://drive.google.com/uc?id=1yEpw7JEQ8xdE0bXUaYlPuKmQzcwB091_"
+          class="w-11/12 rounded-md drop-shadow-lg m-auto lg:m-0 h-1/2"
+          src="https://drive.google.com/uc?id=1uaPHrrD1Fm0pSAR9wpSzyTOHke-vjTdW"
           alt=""
         />
       </div>
@@ -33,41 +33,43 @@
         <div
           class="cover-letter f-gray text-lg pb-7 dark:text-white text-center lg:text-left md:justify-center lg:justify-start"
         >
-          My interest in Computer Programming started back in 2011 when I decide
-          to check the elements on the browser — turns out that all the Elements
-          I see on the browser was HTML amd CSS!. Fast-forward today I'm now a
-          Frontend Developer with 4+ years work experience.
+          I have always been curious about a lot of things since I was a child.
+          I ask the stupidest questions, even up until now. I tend to ask 
+          <span class="italic">"how can this be better"</span> and 
+          <span class="italic">"why does this work" </span>  
+          to almost everything. My curiosity brought me where I am now, to solving 
+          problems and making the world a better place through the use of technology.
         </div>
         <div
           class="summary-experience flex text-center justify-center lg:justify-start"
         >
           <div class="years-exp mr-5 w-2/12">
             <h2 class="text-3xl f-dark-blue font-extrabold dark:text-blue-500">
-              04+
+              12+
             </h2>
             <span class="text-sm f-gray dark:text-white"
-              >Years of Experience</span
+              >Months of Experience</span
             >
           </div>
           <div class="projects mr-5 w-2/12">
             <h2 class="text-3xl f-dark-blue font-extrabold dark:text-blue-500">
-              10+
+              6+
             </h2>
             <span class="text-sm f-gray dark:text-white"
-              >Completed projects</span
+              >Joined Competitions</span
             >
           </div>
           <div class="companies-worked mr-5 w-2/12">
             <h2 class="text-3xl f-dark-blue font-extrabold dark:text-blue-500">
               4+
             </h2>
-            <span class="text-sm f-gray dark:text-white">Companies Worked</span>
+            <span class="text-sm f-gray dark:text-white">Projects Ciompleted</span>
           </div>
         </div>
         <div class="resume pt-10">
           <button class="btn-accent flex items-center m-auto lg:m-0">
             <a
-              href="https://drive.google.com/file/d/1Dm9ZS4u43MveDgeK5qUwUJ5uWQwDrMy8/view?usp=sharing"
+              href="https://drive.google.com/file/d/15cKyzNhxmUlj0N73axnwN3Sthp9hN9mx/view"
               target="_blank"
             >
               Download CV&nbsp;

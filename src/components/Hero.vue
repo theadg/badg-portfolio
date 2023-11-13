@@ -1,6 +1,7 @@
 <template>
   <div
     class="flex h-screen-80 max-w-7xl m-center mt-24 md:flex-col lg:flex-row md:pt-10"
+    id="home"
   >
     <div class="info flex flex-col items-start lg:w-3/6 m-auto">
       <h2
@@ -9,7 +10,7 @@
         data-aos-duration="500"
         class="text-5xl pb-3 font-extrabold f-black name dark:text-white duration-1000"
       >
-        Emmanuel Santiago.
+        Bernard Andrew <br> De Guzman
       </h2>
       <h4
         class="text-lg pb-2 f-gray dark:text-white duration-1000"
@@ -25,9 +26,8 @@
         data-aos-delay="800"
         data-aos-duration="500"
       >
-        I'm Experienced Front-end Developer with a demonstrated history of
-        working in the information technology and services industry. Highly
-        skilled in JavaScript(React/VueJS)
+      I currently work as a Software Developer at Technomancer. I'm also an Information Technology Student at Polytehnic University of the Philippines
+
       </h5>
       <div data-aos="fade-right" data-aos-delay="800" data-aos-duration="700">
         <a
@@ -47,7 +47,7 @@
         data-aos-delay="1500"
         data-aos-duration="800"
         :class="`m-auto clipped light ismall img-first md:w-auto`"
-        src="https://drive.google.com/uc?id=11n9y5dk7DRezKjtNondubZi9hRJR5haE"
+        src="https://drive.google.com/uc?id=1SNQz-GgCvN3ZNLoe3ucBlawldui8QrYn"
         alt=""
         width="400"
       />
@@ -56,7 +56,7 @@
         data-aos-delay="1700"
         data-aos-duration="800"
         class="m-auto clipped light imedium img-center md:w-auto"
-        src="https://drive.google.com/uc?id=11unOg9RI_DcEdTNc9J45XPAi_JfUQXtn"
+        src="https://drive.google.com/uc?id=1q1b-K77wHYC9tW60LU5v2Wno-KZzXk0w"
         alt=""
         width="400"
       />
@@ -65,7 +65,7 @@
         data-aos-delay="1900"
         data-aos-duration="800"
         class="m-auto clipped light ismall img-last md:w-auto"
-        src="https://drive.google.com/uc?id=1efXKN_rVXqnqFgjismuQd6H3cOt2CzRx"
+        src="https://drive.google.com/uc?id=1QI518PJIDWIVO4DNlroajnFOm306aVJf"
         alt=""
         width="400"
       />
