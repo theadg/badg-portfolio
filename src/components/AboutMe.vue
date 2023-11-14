@@ -41,9 +41,9 @@
           problems and making the world a better place through the use of technology.
         </div>
         <div
-          class="summary-experience flex text-center justify-center lg:justify-start"
+          class="summary-experience flex text-center justify-center lg:justify-start gap-10 md:gap-5"
         >
-          <div class="years-exp mr-5 w-2/12">
+          <div class="years-exp w-2/12">
             <h2 class="text-3xl f-dark-blue font-extrabold dark:text-blue-500">
               12+
             </h2>
@@ -51,7 +51,7 @@
               >Months of Experience</span
             >
           </div>
-          <div class="projects mr-5 w-2/12">
+          <div class="projects w-2/12">
             <h2 class="text-3xl f-dark-blue font-extrabold dark:text-blue-500">
               6+
             </h2>
@@ -59,7 +59,7 @@
               >Joined Competitions</span
             >
           </div>
-          <div class="companies-worked mr-5 w-2/12">
+          <div class="companies-worked w-2/12">
             <h2 class="text-3xl f-dark-blue font-extrabold dark:text-blue-500">
               4+
             </h2>
