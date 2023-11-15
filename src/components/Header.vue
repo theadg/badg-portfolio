@@ -3,7 +3,22 @@
     <div class="font-semibold dark:text-cyan-500 duration-1000">
       <a href="https://github.com/theadg" target="_blank">&#64;badg</a>
     </div>
+
     <div class="flex space-x-2 items-center">
+      <a href="https://www.linkedin.com/in/bernardandrewdg/">
+        <font-awesome-icon 
+          :icon="['fab', 'linkedin']" 
+          size="2xl" 
+          :class="`cursor-pointer ${isDark ? 'text-white' : 'text-black' }` "
+        />
+      </a>
+      <a href="https://github.com/theadg">
+        <font-awesome-icon 
+          :icon="['fab', 'github']" 
+          size="2xl" 
+          :class="`cursor-pointer ${isDark ? 'text-white' : 'text-black' }` "
+        />
+      </a>
       <div :class="`mode ${isDark ? 'dark-mode' : ''}`" @click="mode">
         <div class="switch">
           <div :class="`switch-inner ${isDark ? 'dark-mode' : ''}`"></div>
