@@ -32,7 +32,7 @@
       <div data-aos="fade-right" data-aos-delay="800" data-aos-duration="700">
         <a
           class="btn-accent cursor-pointer flex items-center"
-          href="mailto:eman15santiago@gmail.com"
+          href="mailto:deguzmanbernardandrew@gmail.com"
         >
           <span> Contact Me&nbsp;</span>
           <span
