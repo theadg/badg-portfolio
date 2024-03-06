@@ -1,19 +1,19 @@
 <template>
   <div
-    class="flex h-screen-80 max-w-7xl m-center mt-24 md:flex-col lg:flex-row md:pt-10"
+    class="flex mt-24 h-screen-80 max-w-7xl m-center md:flex-col lg:flex-row md:pt-10"
     id="home"
   >
-    <div class="info flex flex-col items-start lg:w-3/6 m-auto">
+    <div class="flex flex-col items-start m-auto info lg:w-3/6">
       <h2
         data-aos="fade-right"
         data-aos-delay="500"
         data-aos-duration="500"
-        class="text-5xl pb-3 font-extrabold f-black name dark:text-white duration-1000"
+        class="pb-3 text-5xl font-extrabold duration-1000 f-black name dark:text-white"
       >
         Bernard Andrew <br> De Guzman
       </h2>
       <h4
-        class="text-lg pb-2 f-gray dark:text-white duration-1000"
+        class="pb-2 text-lg duration-1000 f-gray dark:text-white"
         data-aos="fade-right"
         data-aos-delay="700"
         data-aos-duration="500"
@@ -21,7 +21,7 @@
         Fullstack Developer
       </h4>
       <h5
-        class="text-sm pb-12 f-gray dark:text-white duration-1000"
+        class="pb-12 text-sm duration-1000 f-gray dark:text-white"
         data-aos="fade-right"
         data-aos-delay="800"
         data-aos-duration="500"
@@ -31,7 +31,7 @@
       </h5>
       <div data-aos="fade-right" data-aos-delay="800" data-aos-duration="700">
         <a
-          class="btn-accent cursor-pointer flex items-center"
+          class="flex items-center cursor-pointer btn-accent"
           href="mailto:deguzmanbernardandrew@gmail.com"
         >
           <span> Contact Me&nbsp;</span>
@@ -41,13 +41,13 @@
         </a>
       </div>
     </div>
-    <div class="profile-image lg:w-3/6 flex hidden md:flex md:m-auto md:pt-16">
+    <div class="flex hidden profile-image lg:w-3/6 md:flex md:m-auto md:pt-16">
       <img
         data-aos="zoom-in-right"
         data-aos-delay="1500"
         data-aos-duration="800"
         :class="`m-auto clipped light ismall img-first md:w-auto`"
-        src="https://drive.google.com/uc?id=1SNQz-GgCvN3ZNLoe3ucBlawldui8QrYn"
+        src="https://drive.google.com/thumbnail?sz=w1920&id=1SNQz-GgCvN3ZNLoe3ucBlawldui8QrYn"
         alt=""
         width="400"
       />
@@ -56,7 +56,7 @@
         data-aos-delay="1700"
         data-aos-duration="800"
         class="m-auto clipped light imedium img-center md:w-auto"
-        src="https://drive.google.com/uc?id=1q1b-K77wHYC9tW60LU5v2Wno-KZzXk0w"
+        src="https://drive.google.com/thumbnail?sz=w1920&id=1q1b-K77wHYC9tW60LU5v2Wno-KZzXk0w"
         alt=""
         width="400"
       />
@@ -65,7 +65,7 @@
         data-aos-delay="1900"
         data-aos-duration="800"
         class="m-auto clipped light ismall img-last md:w-auto"
-        src="https://drive.google.com/uc?id=1QI518PJIDWIVO4DNlroajnFOm306aVJf"
+        src="https://drive.google.com/thumbnail?sz=w1920&id=1QI518PJIDWIVO4DNlroajnFOm306aVJf"
         alt=""
         width="400"
       />

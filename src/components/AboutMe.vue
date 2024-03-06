@@ -20,7 +20,7 @@
       >
         <img
           class="w-11/12 rounded-md drop-shadow-lg m-auto lg:m-0 h-1/2"
-          src="https://drive.google.com/uc?id=1uaPHrrD1Fm0pSAR9wpSzyTOHke-vjTdW"
+          src="https://drive.google.com/thumbnail?sz=w1920&id=1uaPHrrD1Fm0pSAR9wpSzyTOHke-vjTdW"
           alt=""
         />
       </div>

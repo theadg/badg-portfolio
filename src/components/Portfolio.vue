@@ -128,7 +128,7 @@ export default {
         {
           name: "Pili-Pinas",
           project_link: "https://pili-pinas.onrender.com/",
-          project_logo: "https://drive.google.com/uc?id=16zcPBc_Ag6Nv-NTg39WNUSHF_tdBNW7I",
+          project_logo: "https://drive.google.com/thumbnail?sz=w1920&id=16zcPBc_Ag6Nv-NTg39WNUSHF_tdBNW7I",
           description: "Capstone Project Streamlining the travel experience",
         },
         {
