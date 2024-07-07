@@ -125,6 +125,12 @@ export default {
   data() {
     return {
       recent_projects: [
+      {
+          name: "Threads Clone",
+          project_link: "https://threads-hazel.vercel.app/",
+          project_logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdI_fwObzik_aoEpMpi4zjj69_F2gM4k7tpw&s",
+          description: "Clone of Meta's Threads",
+        },
         {
           name: "Pili-Pinas",
           project_link: "https://pili-pinas.onrender.com/",

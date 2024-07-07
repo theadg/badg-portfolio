@@ -18,7 +18,7 @@
         data-aos-delay="700"
         data-aos-duration="500"
       >
-        Fullstack Developer
+        Software Engineer
       </h4>
       <h5
         class="pb-12 text-sm duration-1000 f-gray dark:text-white"
@@ -26,8 +26,7 @@
         data-aos-delay="800"
         data-aos-duration="500"
       >
-      I currently work as a Software Developer at Technomancer. I'm also an Information Technology Student at Polytehnic University of the Philippines
-
+        I am an experienced full stack engineer, worked on several projects ranging from e-commerce, blogs, forum and api integrations. I'm also an Information Technology Student at Polytehnic University of the Philippines
       </h5>
       <div data-aos="fade-right" data-aos-delay="800" data-aos-duration="700">
         <a
