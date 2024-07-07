@@ -69,7 +69,7 @@
         <div class="resume pt-10">
           <button class="btn-accent flex items-center m-auto lg:m-0">
             <a
-              href="https://drive.google.com/file/d/15cKyzNhxmUlj0N73axnwN3Sthp9hN9mx/view"
+              href="https://drive.google.com/file/d/1HDoHReJZCEs5D79Jt_S-oGWSd6vT_RWV/view"
               target="_blank"
             >
               Download CV&nbsp;
