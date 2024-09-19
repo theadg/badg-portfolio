@@ -54,7 +54,7 @@
           </div>
           <div class="w-2/12 projects">
             <h2 class="text-3xl font-extrabold f-dark-blue dark:text-blue-500">
-              6+
+              8+
             </h2>
             <span class="text-sm f-gray dark:text-white"
               >Joined Competitions</span
