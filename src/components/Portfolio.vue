@@ -1,16 +1,16 @@
 <template>
-  <div class="max-w-7xl m-center pt-20" id="projects">
+  <div class="pt-20 max-w-7xl m-center" id="projects">
     <div
-      class="about-me text-center mt-10 md:mt-32"
+      class="mt-10 text-center about-me md:mt-32"
       data-aos="fade-up"
       data-aos-delay="100"
       data-aos-duration="800"
     >
       <h2 class="text-5xl dark:text-white">Portfolio</h2>
-      <span class="f-gray text-sm dark:text-white">Recent Projects</span>
+      <span class="text-sm f-gray dark:text-white">Recent Projects</span>
     </div>
     <div
-      class="details flex gap-10 justify-center"
+      class="flex justify-center gap-10 details"
       data-aos="fade-left"
       data-aos-delay="500"
       data-aos-duration="600"
@@ -39,7 +39,7 @@
       >
         <swiper-slide v-for="(project, key) in recent_projects" :key="key">
           <div
-            class="custom-card bg-white dark:bg-slate-800 drop-shadow-2xl w-80 h-96 rounded"
+            class="bg-white rounded custom-card dark:bg-slate-800 drop-shadow-2xl w-80 h-96"
           >
             <div class="tools">
               <div class="circle">
@@ -52,25 +52,25 @@
                 <span class="green box"></span>
               </div>
             </div>
-            <div class="card__content p-2 flex flex-col justify-between">
+            <div class="flex flex-col justify-between p-2 card__content">
               <div class="flex flex-col gap-2">
                 <div class="project-img">
                   <img
                     :src="project.project_logo"
                     alt=""
-                    :class="`${project.class} thumbnail m-auto max-h-48 object-cover`"
+                    :class="`${project.class} thumbnail m-auto max-h-24 object-cover`"
                   />
                 </div>
-                <div class="title dark:text-white text-2xl font-semibold pt-2">
+                <div class="pt-2 text-2xl font-semibold title dark:text-white">
                   {{ project.name }}
                 </div>
-                <div class="description text-sm text-gray-400">
+                <div class="text-sm text-gray-400 description">
                   {{ project.description }}
                 </div>
               </div>
-              <div class="visit-link flex justify-center">
+              <div class="flex justify-center visit-link">
                 <a
-                  class="cssbuttons-io-button bg-cyan-500 w-44 cursor-pointer"
+                  class="cursor-pointer cssbuttons-io-button bg-cyan-500 w-44"
                   :href="project.project_link"
                   target="_blank"
                 >
@@ -125,16 +125,32 @@ export default {
   data() {
     return {
       recent_projects: [
-      {
+        {
+          name: "Carepulse",
+          project_link: "https://carepulse-lake.vercel.app/",
+          project_logo:
+            "https://carepulse-lake.vercel.app/assets/icons/logo-full.svg",
+          description: "Patient and Schedule Booking and Management Platform",
+        },
+        {
+          name: "AMA Chatbot",
+          project_link: "https://ask-me-anything-chat-bot.vercel.app/",
+          project_logo:
+            "https://media.istockphoto.com/id/1413286466/vector/chat-bot-icon-robot-virtual-assistant-bot-vector-illustration.jpg?s=612x612&w=0&k=20&c=ZSG3eqGPDJgIgFUIuVxID64uVUF3eqM3LrrDWtaKses=",
+          description: "Chatbot Powered by Google Gemini",
+        },
+        {
           name: "Threads Clone",
           project_link: "https://threads-hazel.vercel.app/",
-          project_logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdI_fwObzik_aoEpMpi4zjj69_F2gM4k7tpw&s",
+          project_logo:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdI_fwObzik_aoEpMpi4zjj69_F2gM4k7tpw&s",
           description: "Clone of Meta's Threads",
         },
         {
           name: "Pili-Pinas",
           project_link: "https://pili-pinas.onrender.com/",
-          project_logo: "https://drive.google.com/thumbnail?sz=w1920&id=16zcPBc_Ag6Nv-NTg39WNUSHF_tdBNW7I",
+          project_logo:
+            "https://drive.google.com/thumbnail?sz=w1920&id=16zcPBc_Ag6Nv-NTg39WNUSHF_tdBNW7I",
           description: "Capstone Project Streamlining the travel experience",
         },
         {
@@ -155,9 +171,9 @@ export default {
         {
           name: "Tic Tac Toe",
           project_link: "https://theadg.github.io/tic-tac-toe/",
-          project_logo: "https://em-content.zobj.net/source/skype/289/o-button-blood-type_1f17e-fe0f.png",
-          description:
-            "A classic on the browser",
+          project_logo:
+            "https://em-content.zobj.net/source/skype/289/o-button-blood-type_1f17e-fe0f.png",
+          description: "A classic on the browser",
         },
       ],
     };
